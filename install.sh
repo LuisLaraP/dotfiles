@@ -16,5 +16,5 @@ git --git-dir="$target" --work-tree=$HOME config status.showUntrackedFiles no
 git --git-dir="$target" --work-tree=$HOME checkout -f
 
 # Remove unnecessary files
-git --git-dir="$target" --work-tree=$HOME update-index --skip-worktree $HOME/README.md $HOME/LICENSE
-rm $HOME/README.md $HOME/LICENSE
+git --git-dir="$target" --work-tree=$HOME update-index --skip-worktree $HOME/README.md $HOME/LICENSE $HOME/install.sh
+rm $HOME/README.md $HOME/LICENSE $HOME/install.sh
